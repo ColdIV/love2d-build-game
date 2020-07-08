@@ -1,9 +1,11 @@
 #!/bin/bash
 # @ColdIV
-cd game
 
-
+# removing old published files
+echo "Removing old published files"
+rm -f publish/*
 # zip files for linux
+cd game
 echo "Creating love file"
 zip -9 -q -r game.love .
 # create temp folders for win32 and 64
