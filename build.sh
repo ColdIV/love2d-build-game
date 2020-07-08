@@ -39,8 +39,8 @@ rmdir tmp/win64
 rmdir tmp
 # create version for linux without love2d
 echo "Creating version for linux systems"
-cp ../publish/game.love ../tar.gz/lld-0.9.2/bin/game.love
-cd ../tar.gz/lld-0.9.2/
+cp ../publish/game.love ../tar.gz/lld-11.3/bin/game.love
+cd ../tar.gz/lld-11.3/
 #tar -cvzf game.tar.gz * > /dev/null
 # zip it
 echo "Zipping files for linux systems"
