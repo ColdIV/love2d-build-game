@@ -7,7 +7,7 @@ rm -f publish/*
 # zip files for linux
 cd game
 echo "Creating love file"
-zip -9 -q -r game.love .
+zip -9 -x .git/\* -q -r game.love .
 # create temp folders for win32 and 64
 echo "Creating tmp directories for win32 and win64"
 mkdir -p tmp
